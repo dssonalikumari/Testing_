@@ -100,4 +100,10 @@ To close the gap from **5.35 → 8.0**, management should focus on **supply chai
 
 **📧 For verification or queries, contact:** 23f2004491@ds.study.iitm.ac.in  
 
-**🚀 Commitment:** With optimized supply chain and AI-driven demand forecasting, we project achieving the **industry benchmark of 8.0** and reducing excess inventory costs in the upcoming fiscal year.  
+**🚀 Commitment:** With optimized supply chain and AI-driven demand forecasting, we project achieving the **industry benchmark of 8.0** and reducing excess inventory costs in the upcoming fiscal year. 
+## 📧 Contact
+
+For any questions, feel free to reach out:
+
+- Name: Sonali Kumari  
+- Student Email: `23f2004491@ds.study.iitm.ac.in` 
