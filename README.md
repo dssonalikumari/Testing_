@@ -14,7 +14,7 @@
 The executive team has raised concerns about **inventory turnover ratio** performance, which directly impacts storage costs, cash flow, and profitability.  
 
 Our analysis of **2024 quarterly data** reveals an **average turnover ratio of 5.35**, which is **significantly below the industry target of 8.0**. The company faces excess inventory and rising storage costs, requiring urgent optimization in supply chain and demand forecasting.  
--- is there any joke happening why you not accepting it
+-- is there any joke happening why you not accepting it 😡😡😡😡😡🤬🤬🤬
 
 ---
 
