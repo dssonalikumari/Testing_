@@ -73,7 +73,7 @@ To close the gap from **5.35 → 8.0**, management should focus on **supply chai
 
 ## 📈 Visualization
 
-![Inventory Turnover Trend](inventory_turnover.png)
+![Inventory Turnover Trend](turnover_trend.png)
 
 - Blue line = Company quarterly turnover ratio  
 - Red dashed line = Industry target (8.0)  
