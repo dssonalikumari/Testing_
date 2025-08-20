@@ -1,110 +1,86 @@
+Retail Performance Analysis — Inventory Turnover (2024)
 
-# Retail Performance Analysis - 2024 Data Story__
+Author (verification): 23f2004491@ds.study.iitm.ac.in
 
-**📧 Analysis by:** 23f2004491@ds.study.iitm.ac.in  
-**📅 Report Date:** August 20, 2025  
-**🎯 Industry Benchmark Target:** 8.0  
-**🤖 Generated with:** LLM/AI assistance (Jules / Codex) for comprehensive data analysis  
-**🔗 LLM Reference:** https://chatgpt.com/codex/tasks  
-** ✨  Average** 5.35
----
+LLM Assistance: Prepared with help from Jules / ChatGPT Codex (AI-assisted commits)
+Repository contents: analysis.py
+ · turnover_trend.png
 
-## 📊 Executive Summary
+📦 Business Case
 
-The executive team has raised concerns about **inventory turnover ratio** performance, which directly impacts storage costs, cash flow, and profitability.  
+The executive team flagged excess inventory and rising storage costs. Our average inventory turnover ratio is 5.35, while the industry target is 8. This report analyzes quarterly performance, benchmarks it against the target, and provides data‑driven recommendations.
 
-Our analysis of **2024 quarterly data** reveals an **average turnover ratio of 5.35**, which is **significantly below the industry target of 8.0**. The company faces excess inventory and rising storage costs, requiring urgent optimization in supply chain and demand forecasting.  
--- is there any joke happening why you not accepting it 😡😡😡😡😡🤬🤬🤬
+Dataset — 2024 Quarterly Turnover
+Quarter	Turnover
+Q1	2.79
+Q2	3.64
+Q3	8.68
+Q4	6.28
+Average (2024)	5.35
 
----
+Industry Target: 8
 
-## 🔢 Quarterly Performance Data
+🔍 Key Findings
 
-| Quarter | Inventory Turnover Ratio |
-|---------|--------------------------|
-| **Q1**  | 2.79 |
-| **Q2**  | 3.64 |
-| **Q3**  | 8.68 |
-| **Q4**  | 6.28 |
-| **Average** | **5.35** |
+Under-target average: 2024 average = 5.35, which is 2.65 points below the target of 8.
 
-**Industry Target:** 8.0  
+Early-year drag: Q1 (2.79) and Q2 (3.64) caused the largest shortfall (slow-moving stock, higher carrying costs).
 
----
+Proven capacity to hit target: Q3 (8.68) exceeded the benchmark — the operation can meet target under better planning.
 
-## 🔍 Key Findings
+Late recovery but short: Q4 (6.28) improved yet remained below target, implying inconsistency in demand planning and replenishment.
 
-1. **Q1 (2.79) & Q2 (3.64)** showed **weak performance**, far below industry standards.  
-2. **Q3 (8.68)** exceeded the benchmark, proving demand can be captured with better planning.  
-3. **Q4 (6.28)** improved but still fell short of the target.  
-4. **Overall Average (5.35)** remains well below the benchmark of 8.  
+💼 Business Implications
 
----
+Excess holding costs and capital lock‑in due to slow turnover in H1.
 
-## 💼 Business Implications
+Forecasting mismatch (inventory not aligned with demand cycles).
 
-- **Excess Inventory Costs:** Increased storage and carrying expenses.  
-- **Cash Flow Strain:** Capital tied up in unsold goods.  
-- **Missed Opportunities:** Poor performance in Q1 & Q2 delayed revenue realization.  
-- **Volatility Risk:** Inconsistent turnover weakens supply chain stability.  
+Operational variability — spikes and dips indicate process/control gaps.
 
----
+✅ Recommendations (to reach target 8)
 
-## 🎯 Recommendations
+Primary solution: Optimize supply chain and demand forecasting.
 
-To close the gap from **5.35 → 8.0**, management should focus on **supply chain optimization and demand forecasting**:
+A. Demand Forecasting (Data‑Driven)
 
-### 1. **Optimize Supply Chain**
-- Implement leaner inventory practices.  
-- Improve supplier collaboration and just-in-time replenishment.  
-- Use real-time tracking systems.  
+Deploy short‑horizon ML‑based demand sensing with seasonality & promotions.
 
-### 2. **Enhance Demand Forecasting**
-- Adopt AI/ML-driven forecasting models.  
-- Align stock levels with seasonal demand trends.  
-- Use historical sales + external factors (holidays, promotions, economic conditions).  
+Maintain forecast accuracy KPI (e.g., MAPE) by category; weekly review.
 
-### 3. **Strategic Promotions**
-- Introduce targeted discounts to clear slow-moving inventory.  
-- Run early-quarter promotions to balance seasonal dips.  
+Use ABC‑XYZ segmentation to set differentiated safety stocks.
 
-**✅ Solution Focus:** *Optimize supply chain and demand forecasting*  
+B. Supply Chain Optimization
 
----
+Shorten lead times (supplier SLAs, dual-sourcing critical SKUs).
 
-## 📈 Visualization
+Introduce reorder point & EOQ policies aligned to forecast bands.
 
-![Inventory Turnover Trend](turnover_trend.png)
+Pilot VMI / consignment for high-variance items to reduce on-hand.
 
-- Blue line = Company quarterly turnover ratio  
-- Red dashed line = Industry target (8.0)
-- 
-👉 Check out the [analysis.py](analysis.py) script for the code behind this visualization.
----
+C. Inventory Actions
 
-## 🛠️ Supporting Files
+Markdown & clearance programs in Q1–Q2 for slow movers.
 
-- **`analysis.py`** → Python code to process quarterly data & generate visualization  
-- **`turnover_trend.png`** → Visualization of turnover vs target  
-- **`README.md`** → Business case, findings, and recommendations  
+Assortment pruning of persistent low-velocity SKUs.
 
----
+Cycle counting & health dashboards to prevent buildup.
 
-## 🔄 Next Steps
+Expected outcome: Stabilize quarterly turnover at or above 8 by smoothing H1 performance, leveraging Q3 learnings, and tightening planning‑to‑replenishment loops.
 
-1. **Immediate:** Executive review of findings  
-2. **Short-term (Q1 2025):** Deploy AI-driven demand forecasting model  
-3. **Medium-term (Q2–Q3 2025):** Optimize supplier contracts and lean inventory practices  
-4. **Long-term:** Maintain 8+ turnover ratio for sustained profitability  
+📈 Visualization
 
----
+The chart below shows quarterly turnover versus the industry target (8):
 
-**📧 For verification or queries, contact:** 23f2004491@ds.study.iitm.ac.in  
+🧪 Reproducibility
 
-**🚀 Commitment:** With optimized supply chain and AI-driven demand forecasting, we project achieving the **industry benchmark of 8.0** and reducing excess inventory costs in the upcoming fiscal year. 
-## 📧 Contact
+Run the analysis to regenerate stats and the visualization:
 
-For any questions, feel free to reach out:
+python analysis.py
 
-- Name: Sonali Kumari  
-- Student Email: `23f2004491@ds.study.iitm.ac.in` 
+
+Saves the plot as turnover_trend.png
+
+Prints the quarterly series and average = 5.35 to console
+
+Analysis code: analysis.py
