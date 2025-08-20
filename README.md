@@ -83,7 +83,7 @@ To close the gap from **5.35 → 8.0**, management should focus on **supply chai
 ## 🛠️ Supporting Files
 
 - **`analysis.py`** → Python code to process quarterly data & generate visualization  
-- **`inventory_turnover.png`** → Visualization of turnover vs target  
+- **`turnover_trend.png`** → Visualization of turnover vs target  
 - **`README.md`** → Business case, findings, and recommendations  
 
 ---
